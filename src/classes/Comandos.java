@@ -67,9 +67,7 @@ public class Comandos implements IComandos {
     }
 
     @Override
-    public void verificarComandos(Controle c, Portao p,
-            Eventos e
-    ) {
+    public void verificarComandos(Controle c, Portao p, Eventos e) {
         for (int i = 0; i < c.getComandos().size(); i++) {
             switch (c.getComandos().get(i)) {
                 case "p":
